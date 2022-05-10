@@ -40,8 +40,11 @@ dependencies {
     
     // https://mvnrepository.com/artifact/com.sun.mail/javax.mail
      implementation group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
+     
    
 }
+
+
 
 tasks.named('bootJar') {
     launchScript()
